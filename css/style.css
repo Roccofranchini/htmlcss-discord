@@ -161,6 +161,7 @@ header .navbar ul li a {
     top: 50%;
     transform: translateY(-50%);
     padding-right: 80px;
+    padding-left: 20px;
 }
 
 .main-section-text h2 {
@@ -203,4 +204,8 @@ header .navbar ul li a {
     line-height: 180%;
     margin-top: 25px;
     font-weight: bold;
+}
+
+.text-sezione3 {
+    padding: 0 120px 100px 30px
 }
