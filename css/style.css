@@ -47,6 +47,24 @@ body {
     color: white;
 }
 
+.txt-black {
+    color: black;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.bg-black {
+    background-color: black;
+}
+
+
+.btn {
+    padding: 15px 25px;
+    border-radius: 20px;
+    margin: 0 15px;
+}
 
 /* header */
 
@@ -75,4 +93,35 @@ header .navbar ul li a {
     text-decoration: none;
     border-radius: 20px;
     padding: 10px 15px;
+    color: black;
+}
+
+.spotlight {
+    height: 500px;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+    
+.spotlight-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.spotlight-content .spotlight-title {
+    padding: 30px;
+    font-size: 40px;
+}
+
+.spotlight-content .spotlight-p {
+    font-size: 18px;
+    line-height: 200%;
+    padding-bottom: 30px;
+}
+
+.spotlight-content a {
+    text-decoration: none;
 }
