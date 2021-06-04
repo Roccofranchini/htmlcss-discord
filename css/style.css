@@ -140,12 +140,16 @@ header .navbar ul li a {
 /* main */
 
 .main-section {
-    height: 600px;
+    height: 800px;
     
 }
 
 .opposite-section {
-    height: 600px;
+    height: 800px;
+}
+
+.last-section {
+    height: 1000px;
 }
 
 .main-section .col {
@@ -208,4 +212,26 @@ header .navbar ul li a {
 
 .text-sezione3 {
     padding: 0 120px 100px 30px
+}
+
+.last-section .last-section-text {
+    padding: 80px 80px 40px 80px;
+}
+
+.last-section-text h2 {
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.last-section-text p {
+    line-height: 180%;
+    margin-top: 25px;
+    font-weight: bold;
+}
+
+
+.last-section img {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
 }
