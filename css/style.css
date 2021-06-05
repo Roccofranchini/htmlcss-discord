@@ -214,16 +214,16 @@ header .navbar ul li a {
     padding: 0 120px 100px 30px
 }
 
-.last-section .last-section-text {
+.last-section .last-section-text1 {
     padding: 80px 80px 40px 80px;
 }
 
-.last-section-text h2 {
+.last-section-text1 h2 {
     font-size: 40px;
     font-weight: bolder;
 }
 
-.last-section-text p {
+.last-section-text1 p {
     line-height: 180%;
     margin-top: 25px;
     font-weight: bold;
@@ -234,4 +234,27 @@ header .navbar ul li a {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
+}
+
+.last-section .last-section-text2 {
+    position: absolute;
+    left: 50%;
+    top: 80%;
+    transform: translate(-50%, -50%);
+}
+
+.last-section-text2 h3 {
+    font-size: 28px;
+    font-weight: bolder;
+    margin: 120px 0 60px 0;
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+    padding: 30px;
+
+}
+
+.last-section-text2 a {
+    margin-bottom: 200px;
+    background-color: rgb(142, 161, 225);
+    text-decoration: none;
 }
